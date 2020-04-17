@@ -1,0 +1,2 @@
+# Pythonhackerrank
+solved question solutions
