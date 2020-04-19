@@ -1,7 +1,11 @@
-from itertools import combinations
+from itertools import combinations_with_replacement
+s=input().split()
+arr=s[0]
+r=int(s[1])
+templl=combinations_with_replacement(sorted(arr),r)
+for i in templl:
+    print(''.join(i))
 
-a = input().split()
 
-for i in range(1, int(a[1]) + 1):
-    for j in combinations(sorted(a[0]), i):
-        print (''.join(j))
+
+    
